@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">WSAppTest</string>
     <string name="worldcinema">WorldCinema</string>
+    <string name="e_mail">E-mail</string>
+    <string name="second_name">Фамилия</string>
+    <string name="password">Пароль</string>
+    <string name="first_name">Имя</string>
+    <string name="repeat_password">Повторить пароль</string>
+    <string name="SignIn">Войти</string>
+    <string name="SignUp">Регистрация</string>
+    <string name="SignUp1">Зарегистироваться</string>
+    <string name="HaveAcc">У меня уже есть аккаунт</string>
 </resources>

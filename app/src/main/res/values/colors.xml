@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="fon">#150D0B</color>
     <color name="color_text">#EFBAD3</color>
+    <color name="color_hint">#AFAFAF</color>
+    <color name="fioletov">#A163F5</color>
+    <color name="bnvFon">#1C1A19</color>
 </resources>
