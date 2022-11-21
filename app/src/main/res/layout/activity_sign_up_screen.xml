@@ -90,7 +90,8 @@
                     <TextView
                         style="@style/TextView.Button"
                         android:text="@string/HaveAcc"
-                        android:textColor="@color/fioletov"/>
+                        android:textColor="@color/fioletov"
+                        android:onClick="SignIn_onClick"/>
 
                 </LinearLayout>
 
