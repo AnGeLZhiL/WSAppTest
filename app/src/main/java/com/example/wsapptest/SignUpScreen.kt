@@ -19,4 +19,8 @@ class SignUpScreen : AppCompatActivity() {
     fun SignIn_onClick(view: View) {
         startActivity(Intent(this, SignInScreen::class.java))
     }
+
+    fun SignUp(view: View) {
+        startActivity(Intent(this, MainActivity::class.java))
+    }
 }

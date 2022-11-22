@@ -59,7 +59,8 @@
                 <TextView
                     style="@style/TextView.Button"
                     android:text="@string/SignIn"
-                    android:textColor="@color/white"/>
+                    android:textColor="@color/white"
+                    android:onClick="SignIn"/>
 
             </LinearLayout>
 

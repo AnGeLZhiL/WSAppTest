@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/mainScreen">
+
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="com.example.wsapptest.MainScreen"
+        android:label="fragment_main_screen"
+        tools:layout="@layout/fragment_main_screen" />
+    <fragment
+        android:id="@+id/profileScreen"
+        android:name="com.example.wsapptest.ProfileScreen"
+        android:label="fragment_profile_screen"
+        tools:layout="@layout/fragment_profile_screen" />
+    <fragment
+        android:id="@+id/collectionsScreen"
+        android:name="com.example.wsapptest.CollectionsScreen"
+        android:label="fragment_collections_screen"
+        tools:layout="@layout/fragment_collections_screen" />
+    <fragment
+        android:id="@+id/podborkaScreen"
+        android:name="com.example.wsapptest.PodborkaScreen"
+        android:label="fragment_podborka_screen"
+        tools:layout="@layout/fragment_podborka_screen" />
+</navigation>

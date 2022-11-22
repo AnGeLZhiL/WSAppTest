@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainScreen"
+        android:title="Главное"
+        android:icon="@drawable/ic_nav_main"/>
+    <item
+        android:id="@+id/podborkaScreen"
+        android:title="Подборка"
+        android:icon="@drawable/ic_nav_podborka"/>
+    <item
+        android:id="@+id/collectionsScreen"
+        android:title="Коллекции"
+        android:icon="@drawable/ic_nav_collections"/>
+    <item
+        android:id="@+id/profileScreen"
+        android:title="Профиль"
+        android:icon="@drawable/ic_nav_profile"/>
+</menu>
