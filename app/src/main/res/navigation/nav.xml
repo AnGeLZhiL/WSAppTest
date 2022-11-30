@@ -14,7 +14,11 @@
         android:id="@+id/profileScreen"
         android:name="com.example.wsapptest.ProfileScreen"
         android:label="fragment_profile_screen"
-        tools:layout="@layout/fragment_profile_screen" />
+        tools:layout="@layout/fragment_profile_screen" >
+        <action
+            android:id="@+id/action_profileScreen_to_testFragment"
+            app:destination="@id/testFragment" />
+    </fragment>
     <fragment
         android:id="@+id/collectionsScreen"
         android:name="com.example.wsapptest.CollectionsScreen"
@@ -25,4 +29,13 @@
         android:name="com.example.wsapptest.PodborkaScreen"
         android:label="fragment_podborka_screen"
         tools:layout="@layout/fragment_podborka_screen" />
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.wsapptest.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" >
+        <action
+            android:id="@+id/action_testFragment_to_profileScreen"
+            app:destination="@id/profileScreen" />
+    </fragment>
 </navigation>

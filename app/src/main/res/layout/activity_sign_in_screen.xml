@@ -34,11 +34,13 @@
                 android:layout_gravity="center"/>
 
             <EditText
+                android:id="@+id/emailEditText"
                 style="@style/EditText"
                 android:hint="@string/e_mail"
                 android:inputType="text"/>
 
             <EditText
+                android:id="@+id/passwordEditText"
                 style="@style/EditText"
                 android:hint="@string/password"
                 android:inputType="textPassword"/>
@@ -57,6 +59,7 @@
                 android:background="@drawable/btn">
 
                 <TextView
+                    android:id="@+id/signInOnClick"
                     style="@style/TextView.Button"
                     android:text="@string/SignIn"
                     android:textColor="@color/white"
@@ -71,10 +74,10 @@
                 android:background="@drawable/edit_text">
 
                 <TextView
+                    android:id="@+id/signUpOnClick"
                     style="@style/TextView.Button"
                     android:text="@string/SignUp"
-                    android:textColor="@color/fioletov"
-                    android:onClick="SignUp_onClick"/>
+                    android:textColor="@color/fioletov"/>
 
             </LinearLayout>
 

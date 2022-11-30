@@ -22,6 +22,20 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="TextView.FamName">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextView.Email">
+        <item name="android:textColor">@color/color_hint</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CornerSize50Percent">
+        <item name="cornerSize">50%</item>
+    </style>
+
     <style name="TextView.ToolBox">
         <item name="android:textAlignment">center</item>
         <item name="android:textSize">16sp</item>

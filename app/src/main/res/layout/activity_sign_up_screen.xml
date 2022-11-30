@@ -36,26 +36,31 @@
                 android:layout_marginVertical="20dp">
 
                 <EditText
+                    android:id="@+id/firstNameEditText"
                     style="@style/EditText"
                     android:hint="@string/first_name"
                     android:inputType="text"/>
 
                 <EditText
+                    android:id="@+id/secondNameEditText"
                     style="@style/EditText"
                     android:hint="@string/second_name"
                     android:inputType="text"/>
 
                 <EditText
+                    android:id="@+id/emailEditText"
                     style="@style/EditText"
                     android:hint="@string/e_mail"
                     android:inputType="text"/>
 
                 <EditText
+                    android:id="@+id/passwordEditText"
                     style="@style/EditText"
                     android:hint="@string/password"
                     android:inputType="textPassword"/>
 
                 <EditText
+                    android:id="@+id/repPasswordEditText"
                     style="@style/EditText"
                     android:hint="@string/repeat_password"
                     android:inputType="textPassword"/>
@@ -74,10 +79,10 @@
                     android:background="@drawable/btn">
 
                     <TextView
+                        android:id="@+id/signUp"
                         style="@style/TextView.Button"
                         android:text="@string/SignUp1"
-                        android:textColor="@color/white"
-                        android:onClick="SignUp"/>
+                        android:textColor="@color/white"/>
 
                 </LinearLayout>
 
@@ -89,10 +94,10 @@
                     android:background="@drawable/edit_text">
 
                     <TextView
+                        android:id="@+id/signInOnCllick"
                         style="@style/TextView.Button"
                         android:text="@string/HaveAcc"
-                        android:textColor="@color/fioletov"
-                        android:onClick="SignIn_onClick"/>
+                        android:textColor="@color/fioletov"/>
 
                 </LinearLayout>
 
