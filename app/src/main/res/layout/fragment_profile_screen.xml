@@ -40,13 +40,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imgUser"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:paddingBottom="8dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/foto_user"
-                    android:paddingBottom="8dp"
-                    app:shapeAppearanceOverlay="@style/CornerSize50Percent"/>
+                    app:shapeAppearanceOverlay="@style/CornerSize50Percent" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

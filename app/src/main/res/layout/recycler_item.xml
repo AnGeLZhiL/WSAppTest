@@ -11,23 +11,17 @@
         android:background="@color/bnvFon"
         android:layout_marginBottom="10dp">
 
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:textColor="@color/white"
-            android:layout_weight="1"
-            android:text="Пример"
-            android:layout_gravity="left"/>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"/>
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="14sp"
-            android:text="3"
-            android:gravity="right"
             android:textColor="@color/white"
             android:layout_weight="1"/>
 

@@ -3,15 +3,18 @@ package com.example.wsapptest.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.wsapptest.Global
 import com.example.wsapptest.R
 import com.example.wsapptest.model.classModel
+import com.squareup.picasso.Picasso
 
 class itemAdapter(private val itemList:ArrayList<classModel>):RecyclerView.Adapter<itemAdapter.classViwholder>() {
     class classViwholder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        val textView1 =itemView.findViewById<TextView>(R.id.textView1)
-        val textView2 =itemView.findViewById<TextView>(R.id.textView2)
+        val imageView =itemView.findViewById<ImageView>(R.id.imageView)
+        val textView =itemView.findViewById<TextView>(R.id.textView)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): classViwholder {
@@ -21,8 +24,8 @@ class itemAdapter(private val itemList:ArrayList<classModel>):RecyclerView.Adapt
 
     override fun onBindViewHolder(holder: classViwholder, position: Int) {
         val currentItem =itemList[position]
-        holder.textView1.text = currentItem.name
-        holder.textView2.text = currentItem.count.toString()
+        //Picasso.get().load(currentItem.name).into(holder.imageView)
+        holder.textView.text = currentItem.count
     }
 
     override fun getItemCount(): Int {
